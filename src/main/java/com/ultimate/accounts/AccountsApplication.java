@@ -10,9 +10,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @RefreshScope
-@ComponentScans({@ComponentScan("com.ultimate.cards.Controller")})
-@EnableJpaRepositories("com.ultimate.cards.repo")
-@EntityScan("com.ultimate.cards.model")
+@ComponentScans({@ComponentScan("com.ultimate.accounts.controller")})
+@EnableJpaRepositories("com.ultimate.accounts.repo")
+@EntityScan("com.ultimate.accounts.model")
 public class AccountsApplication {
 
 	public static void main(String[] args) {
